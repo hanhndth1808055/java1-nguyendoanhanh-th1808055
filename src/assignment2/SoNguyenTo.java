@@ -29,6 +29,9 @@ public class SoNguyenTo {
     }
 
     public boolean isSoNguyenTo(int x) {
+        if (x <= 0) {
+            return false;
+        }
         if (x == 1) {
             return false;
         }
