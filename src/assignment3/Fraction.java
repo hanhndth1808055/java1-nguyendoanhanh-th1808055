@@ -1,7 +1,7 @@
 package assignment3;
 
 import java.util.Scanner;
-
+import java.lang.Math;
 public class Fraction {
     public int numerator;
     public int denominator;
@@ -65,14 +65,14 @@ public class Fraction {
         if (a == 0 || b == 0) {
             return a + b;
         }
-        while (a != b) {
-            if (a > b) {
-                a -= b;
+        while (a*b != 0) {
+            if (Math.abs(a) > Math.abs(b)) {
+                a %= b;
             } else {
-                b -= a;
+                b %= a;
             }
         }
-        return a;
+        return Math.abs(a) + Math.abs(b);
     }
 
     public Fraction simplifyingFraction(Fraction fraction1) {
@@ -117,7 +117,7 @@ public class Fraction {
         d = fraction2.getDenominator();
         subFraction.setNumerator(a * d - c * b);
         subFraction.setDenominator(b * d);
-//        subFraction.simplifyingFraction(subFraction);
+        subFraction.simplifyingFraction(subFraction);
         return subFraction;
     }
 
@@ -133,7 +133,7 @@ public class Fraction {
         d = fraction2.getDenominator();
         mulFraction.setNumerator(a * c);
         mulFraction.setDenominator(b * d);
-//        mulFraction.simplifyingFraction(mulFraction);
+        mulFraction.simplifyingFraction(mulFraction);
         return mulFraction;
     }
 
@@ -150,7 +150,7 @@ public class Fraction {
         d = fraction2.getDenominator();
         divFraction.setNumerator(a * d);
         divFraction.setDenominator(b * c);
-//        divFraction.simplifyingFraction(divFraction);
+        divFraction.simplifyingFraction(divFraction);
         return divFraction;
     }
 }

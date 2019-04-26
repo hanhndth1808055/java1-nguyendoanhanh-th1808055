@@ -15,8 +15,8 @@ public class Main {
         fractionA.printFraction(fractionA.flipFraction(fractionA));
 
         //Test simplifying function
-        System.out.println("Simplifying fraction B 2/12");
-        Fraction fractionB = new Fraction(2, 12);
+        System.out.println("Simplifying fraction B -2/12");
+        Fraction fractionB = new Fraction(-2, 12);
         fractionB.simplifyingFraction(fractionB);
         fractionB.printFraction(fractionB);
 
