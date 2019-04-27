@@ -30,6 +30,7 @@ public class User {
         for (int i = 0; i < 10; i++) {
             arrayUsers[i] = new User(i + 1, "Le Van A", "aa@gmail.com", "123456");
         }
+
         for(User u: arrayUsers){
             System.out.println("ID: " + u.id);
             System.out.println("Name: " + u.name);
@@ -42,6 +43,7 @@ public class User {
         for (int i = 0; i <10; i++){
             userArray.add(new User(i + 1, "Le Van A", "aa@gmail.com", "123456"));
         }
+
         // Xpa 1 element khoi arrayList
         userArray.remove(2); // Xoa element co index = 2
         for(User u: userArray){

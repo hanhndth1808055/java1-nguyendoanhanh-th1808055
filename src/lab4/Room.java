@@ -1,6 +1,5 @@
 package lab4;
 
-import javax.annotation.processing.SupportedSourceVersion;
 import java.util.ArrayList;
 import java.util.Scanner;
 
