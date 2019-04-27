@@ -44,6 +44,7 @@ public class Cart {
         int id = scanner.nextInt();
         for (int i = 0; i < productList.size(); i++) {
             if (productList.get(i).id == id && productList.get(i).checkQty()) {
+                productList.get(i).qty = 0;
                 productList.remove(i);
             }
         }
@@ -53,7 +54,7 @@ public class Cart {
         double total = 0;
         for (int i = 0; i < productList.size(); i++) {
             if (productList.get(i).checkQty()) {
-                System.out.println("Sub-total of Item " + (i + 1) + ":" + productList.get(i).qty * productList.get(i).price);
+                System.out.println("Sub-total of Item " + (i + 1) + " = Quantity x Price = " + productList.get(i).qty + " x " + productList.get(i).price + " = " + productList.get(i).qty * productList.get(i).price);
                 total += productList.get(i).qty * productList.get(i).price;
             }
         }
@@ -62,6 +63,9 @@ public class Cart {
         } else {
             this.grandTotal = total + 0.02 * total;
         }
+        System.out.println("Cart number: " + this.id);
+        System.out.println("Customer: " + this.customer);
+        System.out.println("City: " + this.city);
         System.out.println("The grand total is: " + this.grandTotal);
         return this.grandTotal;
     }

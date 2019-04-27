@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5d487c9-fb29-4947-b306-9d506fbdc30d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assignment4/Cart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assignment4/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assignment4/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab4/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab4/Room.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab4/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab4/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assignment4/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/assignment4/Cart.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -58,12 +53,12 @@
         <counts>
           <entry key="dummy" value="20" />
           <entry key="gitignore" value="11" />
-          <entry key="java" value="14073" />
+          <entry key="java" value="14209" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="14073" />
+          <entry key="JAVA" value="14209" />
           <entry key="PLAIN_TEXT" value="31" />
         </counts>
       </usages-collector>
@@ -76,8 +71,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/assignment4/Cart.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="136">
-                  <caret line="46" column="37" selection-start-line="46" selection-start-column="37" selection-end-line="46" selection-end-column="37" />
+                <state relative-caret-position="102">
+                  <caret line="57" column="4" selection-start-line="57" selection-start-column="4" selection-end-line="57" selection-end-column="4" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="e#233#234#0" expanded="true" />
@@ -234,7 +229,7 @@
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="java1-nguyendoanhanh-th1808055" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556338941168" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556338961348" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
@@ -291,12 +286,12 @@
       <workItem from="1556084569688" duration="9180000" />
       <workItem from="1556275597937" duration="2128000" />
       <workItem from="1556280443878" duration="7949000" />
-      <workItem from="1556336041891" duration="2888000" />
+      <workItem from="1556336041891" duration="3162000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55606000" />
+    <option name="totallyTimeSpent" value="55880000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -320,13 +315,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32978722" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32978722" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39893618" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32978722" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32978722" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32978722" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32978722" />
@@ -565,8 +560,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/assignment4/Cart.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="46" column="37" selection-start-line="46" selection-start-column="37" selection-end-line="46" selection-end-column="37" />
+        <state relative-caret-position="102">
+          <caret line="57" column="4" selection-start-line="57" selection-start-column="4" selection-end-line="57" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#233#234#0" expanded="true" />
