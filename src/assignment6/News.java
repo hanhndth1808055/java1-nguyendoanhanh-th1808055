@@ -63,17 +63,20 @@ public class News implements INews {
         this.Content = content;
     }
 
+    public Integer[] RateList = {3, 4, 6};
+
+    public float Calculate() {
+        this.AverageRate = (((float) RateList[0] + (float) RateList[1] + (float) RateList[2]) / 3);
+
+        return (((float) RateList[0] + (float) RateList[1] + (float) RateList[2]) / 3);
+    }
+
     public void Display() {
         System.out.println("Title: " + getTitle());
         System.out.println("Publishing Date: " + getPublishDate());
         System.out.println("Author: " + getAuthor());
         System.out.println("Content: " + getContent());
-        System.out.println("Average Rate: " + getAverageRate());
+        System.out.println("Average Rate: ");
     }
 
-    public Integer[] RateList = {3, 4, 6};
-
-    public float Calculate() {
-        return ((RateList[0] + RateList[1] + RateList[2]) / 3);
-    }
 }

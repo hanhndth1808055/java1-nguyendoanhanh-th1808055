@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b5d487c9-fb29-4947-b306-9d506fbdc30d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/session6/PhoneBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/session6/PhoneBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2Java/assignment6/News.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2Java/assignment6/News.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assignment6/News.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/assignment6/News.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,12 +47,12 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gitignore" value="1" />
-          <entry key="java" value="145" />
+          <entry key="java" value="146" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="145" />
+          <entry key="JAVA" value="146" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
@@ -59,12 +60,12 @@
         <counts>
           <entry key="dummy" value="20" />
           <entry key="gitignore" value="11" />
-          <entry key="java" value="21944" />
+          <entry key="java" value="21995" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="21944" />
+          <entry key="JAVA" value="21995" />
           <entry key="PLAIN_TEXT" value="31" />
         </counts>
       </usages-collector>
@@ -72,41 +73,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/assignment6/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/session6/PhoneBook.java">
+        <entry file="file://$PROJECT_DIR$/src/assignment6/News.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="95" column="50" lean-forward="true" selection-start-line="95" selection-start-column="50" selection-end-line="95" selection-end-column="50" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/session6/PhoneNumber.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-21">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/session6/Phone.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+            <state relative-caret-position="255">
+              <caret line="76" column="78" lean-forward="true" selection-start-line="76" selection-start-column="78" selection-end-line="76" selection-end-column="78" />
             </state>
           </provider>
         </entry>
@@ -180,9 +151,9 @@
         <option value="$PROJECT_DIR$/src/assignment5/Student.java" />
         <option value="$PROJECT_DIR$/src/assignment5/Main.java" />
         <option value="$PROJECT_DIR$/src/assignment6/INews.java" />
-        <option value="$PROJECT_DIR$/src/assignment6/News.java" />
         <option value="$PROJECT_DIR$/src/assignment6/Main.java" />
         <option value="$PROJECT_DIR$/src/session6/PhoneBook.java" />
+        <option value="$PROJECT_DIR$/src/assignment6/News.java" />
       </list>
     </option>
   </component>
@@ -310,7 +281,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://E:/01_CODING/java1-nguyendoanhanh-th1808055/src/lab4/Room.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557317795399" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557318522267" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../ADFgit" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
@@ -336,7 +307,7 @@
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="session6.Main" />
+      <option name="MAIN_CLASS_NAME" value="assignment6.Main" />
       <module name="2Java" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -375,12 +346,12 @@
       <workItem from="1557195176669" duration="9113000" />
       <workItem from="1557240707673" duration="3054000" />
       <workItem from="1557310339577" duration="2124000" />
-      <workItem from="1557315992789" duration="1800000" />
+      <workItem from="1557315992789" duration="2412000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95899000" />
+    <option name="totallyTimeSpent" value="96511000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -395,7 +366,7 @@
     <frame x="-8" y="-8" width="1616" height="886" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30912596" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30912596" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -404,7 +375,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.37632978" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37632978" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39893618" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -784,13 +755,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assignment6/News.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="62" column="31" selection-start-line="62" selection-start-column="31" selection-end-line="62" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/session6/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -821,11 +785,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/session6/PhoneBook.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="95" column="50" lean-forward="true" selection-start-line="95" selection-start-column="50" selection-end-line="95" selection-end-column="50" />
+        <state relative-caret-position="272">
+          <caret line="93" column="51" lean-forward="true" selection-start-line="93" selection-start-column="51" selection-end-line="93" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assignment6/News.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="76" column="78" lean-forward="true" selection-start-line="76" selection-start-column="78" selection-end-line="76" selection-end-column="78" />
         </state>
       </provider>
     </entry>
