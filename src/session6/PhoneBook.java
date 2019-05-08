@@ -2,9 +2,10 @@ package session6;
 
 import java.util.ArrayList;
 import java.util.Collections;
-import java.lang.Comparable;
+import java.util.Comparator;
 
-public class PhoneBook extends Phone {
+public class PhoneBook extends Phone{
+
     public ArrayList<PhoneNumber> PhoneList;
 
     public PhoneBook() {
@@ -78,24 +79,53 @@ public class PhoneBook extends Phone {
         }
     }
 
+    // IPhone iPhone = new iPhone()
+//    {
+//        @Override
+//                public void calling(){
+//            System.out.println("Calling...");
+//    }
+//    iPhone.calling();
+//    }
+//    public static Comparator<PhoneNumber> PhoneNumberComparator = new Comparator<PhoneNumber>() {
+//        @Override
+//        public int compare(PhoneNumber o1, PhoneNumber o2) {
+//            String pNName1 = o1.getName().toUpperCase();
+//            String pNName2 = o2.getName().toUpperCase();
+//
+//            return pNName1.compareTo(pNName2);
+//        }
+//    };
+
+    @Override
     public void sort() {
+
         // Collections.sort - Bubble sort
 //
-//        Collections.sort();
+//        Collections.sort(PhoneList, new Comparator<PhoneNumber>() {
+//            @Override
+//            public int compare(PhoneNumber o1, PhoneNumber o2) {
+//                return o1.getName().compareTo(o2.getName());
+//            }
+//        });
+        Collections.sort(PhoneList);
+        //-----------------
 
-        String temp;
-        String temp2;
-        for (int i = 0; i < PhoneList.size(); i++) {
-            for (int j = i + 1; j < PhoneList.size(); j++)
-                if (PhoneList.get(i).name.compareTo(PhoneList.get(j).name) > 0) {
-                    temp = PhoneList.get(i).name;
-                    PhoneList.get(i).name = PhoneList.get(j).name;
-                    PhoneList.get(j).name = temp;
-                    temp2 = PhoneList.get(i).phone;
-                    PhoneList.get(i).phone = PhoneList.get(j).phone;
-                    PhoneList.get(j).phone = temp2;
-                }
-        }
+
+        //-------------------
+//        String temp;
+//        String temp2;
+//        for (int i = 0; i < PhoneList.size(); i++) {
+//            for (int j = i + 1; j < PhoneList.size(); j++)
+//                if (PhoneList.get(i).name.compareTo(PhoneList.get(j).name) > 0) {
+//                    temp = PhoneList.get(i).name;
+//                    PhoneList.get(i).name = PhoneList.get(j).name;
+//                    PhoneList.get(j).name = temp;
+//                    temp2 = PhoneList.get(i).phone;
+//                    PhoneList.get(i).phone = PhoneList.get(j).phone;
+//                    PhoneList.get(j).phone = temp2;
+//                }
+//        }
         for (PhoneNumber ph : PhoneList) {
             System.out.println("Name: " + ph.name);
             System.out.println("Phone number: " + ph.phone);

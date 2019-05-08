@@ -7,6 +7,7 @@ public class News implements INews {
     public String Author;
     public String Content;
     public float AverageRate;
+    public Integer RateList[] = new Integer[3];
 
     public int getID() {
         return ID;
@@ -55,20 +56,21 @@ public class News implements INews {
     public News() {
     }
 
-    public News(int ID, String title, String publishDate, String author, String content) {
+    public News(int ID, String title, String publishDate, String author, String content, int a, int b, int c) {
         this.ID = ID;
         this.Title = title;
         this.PublishDate = publishDate;
         this.Author = author;
         this.Content = content;
+        this.RateList[0] = a;
+        this.RateList[1] = b;
+        this.RateList[2] = c;
     }
 
-    public Integer[] RateList = {3, 4, 6};
 
     public float Calculate() {
-        this.AverageRate = (((float) RateList[0] + (float) RateList[1] + (float) RateList[2]) / 3);
-
-        return (((float) RateList[0] + (float) RateList[1] + (float) RateList[2]) / 3);
+        this.AverageRate = (((float) this.RateList[0] + (float) this.RateList[1] + (float) this.RateList[2]) / 3);
+        return (((float) this.RateList[0] + (float) this.RateList[1] + (float) this.RateList[2]) / 3);
     }
 
     public void Display() {
@@ -76,7 +78,7 @@ public class News implements INews {
         System.out.println("Publishing Date: " + getPublishDate());
         System.out.println("Author: " + getAuthor());
         System.out.println("Content: " + getContent());
-        System.out.println("Average Rate: ");
+        System.out.println("Average Rate: " + getAverageRate());
     }
 
 }
