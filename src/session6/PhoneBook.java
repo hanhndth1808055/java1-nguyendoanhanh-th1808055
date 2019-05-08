@@ -84,12 +84,16 @@ public class PhoneBook extends Phone {
 //        Collections.sort();
 
         String temp;
+        String temp2;
         for (int i = 0; i < PhoneList.size(); i++) {
             for (int j = i + 1; j < PhoneList.size(); j++)
                 if (PhoneList.get(i).name.compareTo(PhoneList.get(j).name) > 0) {
                     temp = PhoneList.get(i).name;
                     PhoneList.get(i).name = PhoneList.get(j).name;
                     PhoneList.get(j).name = temp;
+                    temp2 = PhoneList.get(i).phone;
+                    PhoneList.get(i).phone = PhoneList.get(j).phone;
+                    PhoneList.get(j).phone = temp2;
                 }
         }
         for (PhoneNumber ph : PhoneList) {
